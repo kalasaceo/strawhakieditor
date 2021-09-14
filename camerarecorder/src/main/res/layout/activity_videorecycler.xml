@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:id="@+id/sc_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarSize="0dp"
+        android:nestedScrollingEnabled="true"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/sub_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="7dp"
+                app:srcCompat="@drawable/named2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/p_texture"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/ppic"
+                    android:minHeight="400dp"
+                    android:minWidth="400dp"
+                    app:civ_border_color="#2979FF"
+                    app:civ_border_width="4dp" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/p_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rowan Apte"
+                android:textAlignment="center"
+                android:textColor="#00B0FF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+            <RelativeLayout
+                android:layout_width="395dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rouded_button"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/btn_frequest"
+                    android:layout_width="395dp"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:text="Friend Request"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="No Post Deleted Yet"
+                android:textColor="#B3000000"
+                android:textSize="14dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="66dp"
+                        android:layout_height="20dp"
+                        android:text="Posts"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:id="@+id/n_post"
+                        android:layout_width="66dp"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:text="Friends"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="7dp" />
+
+                    <TextView
+                        android:id="@+id/n_friend"
+                        android:layout_width="66dp"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+                <Space
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_voice"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/p_call"
+                    android:textAlignment="textStart" />
+
+                <Space
+                    android:layout_width="4dp"
+                    android:layout_height="22dp"
+                    android:layout_weight="0.4" />
+
+                <Button
+                    android:id="@+id/btn_message"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/p_message"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:paddingLeft="12dp"
+                android:text="Friends"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <Button
+                android:id="@+id/expand_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:paddingLeft="12dp"
+                android:text="About +"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <ScrollView
+                android:id="@+id/sc_about"
+                android:layout_width="364dp"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:paddingLeft="12dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="364dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:orientation="horizontal"
+                        android:paddingBottom="7dp">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pimg3" />
+
+                        <TextView
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:paddingTop="16dp"
+                            android:text="Love to"
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/t_opt3"
+                                android:layout_width="257dp"
+                                android:layout_height="51dp"
+                                android:paddingTop="14dp"
+                                android:text="------"
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:orientation="horizontal"
+                        android:paddingBottom="7dp">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pimg2" />
+
+                        <TextView
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:text="Works as "
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/t_opt2"
+                                android:layout_width="257dp"
+                                android:layout_height="51dp"
+                                android:paddingTop="14dp"
+                                android:text="------"
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pimg1" />
+
+                        <TextView
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:text="Lives at"
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/t_opt1"
+                                android:layout_width="257dp"
+                                android:layout_height="51dp"
+                                android:paddingTop="14dp"
+                                android:text="------"
+                                android:textColor="#000000"
+                                android:textSize="14dp" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="352dp"
+                        android:layout_height="62dp"
+                        android:orientation="horizontal"
+                        android:paddingBottom="7dp">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pimg4" />
+
+                        <TextView
+                            android:id="@+id/pv_4"
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:text="Status"
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Posts"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <com.daasuu.camerarecorder.AutoPlayVideoRecyclerView
+                android:id="@+id/listFeed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/no_post"
+                android:layout_width="352dp"
+                android:layout_height="296dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/newest" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

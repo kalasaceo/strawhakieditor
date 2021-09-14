@@ -1,0 +1,710 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sage.project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+11-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-68
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-80
+12-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+13-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+14-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-60
+16-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-70
+17-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:19-67
+18
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-65
+19-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-81
+20-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-78
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+21-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-68
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:9:5-79
+22-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:9:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
+23-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:10:22-73
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dc88e4597491521248a3227b9f47cdcf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dc88e4597491521248a3227b9f47cdcf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dc88e4597491521248a3227b9f47cdcf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
+31
+32    <application
+32-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:4:5-20:19
+33        android:name="com.daasuu.camerarecorder.App"
+33-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:5:9-53
+34        android:allowBackup="true"
+34-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:6:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4bb29b9c262fa68828503263a9ce87f5\core-1.5.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:7:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:8:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:9:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:10:9-35
+42        android:theme="@style/AppTheme" >
+42-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:11:9-40
+43        <activity
+43-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:12:9-19:20
+44            android:name="com.daasuu.sample.MainActivity"
+44-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:13:13-58
+45            android:screenOrientation="portrait" >
+45-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:14:13-49
+46            <intent-filter>
+46-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:15:13-18:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:16:17-69
+47-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:16:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:17:17-77
+49-->C:\Users\asus\3D Objects\PrayerEditor\sample\src\main\AndroidManifest.xml:17:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-29:52
+53            android:name="com.daasuu.camerarecorder.ui.activity.VideoRecyclerActivity"
+53-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-87
+54            android:screenOrientation="portrait" />
+54-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-49
+55        <activity
+55-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-32:52
+56            android:name="com.daasuu.camerarecorder.ui.activity.profileActivity"
+56-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-81
+57            android:screenOrientation="portrait" />
+57-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-49
+58        <activity
+58-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-35:52
+59            android:name="com.daasuu.camerarecorder.PZoomActivity"
+59-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-67
+60            android:screenOrientation="portrait" />
+60-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-49
+61        <activity
+61-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-38:52
+62            android:name="com.daasuu.camerarecorder.EntryActivity"
+62-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-67
+63            android:screenOrientation="portrait" />
+63-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-49
+64        <activity
+64-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-41:52
+65            android:name="com.daasuu.camerarecorder.FirstEntryActivity"
+65-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-72
+66            android:screenOrientation="portrait" />
+66-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-49
+67        <activity
+67-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-44:52
+68            android:name="com.daasuu.camerarecorder.VideoProcessActivity"
+68-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-74
+69            android:screenOrientation="portrait" />
+69-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-49
+70        <activity
+70-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-47:52
+71            android:name="com.daasuu.camerarecorder.MainZoomActivity"
+71-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-70
+72            android:screenOrientation="portrait" />
+72-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49
+73        <activity
+73-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-50:52
+74            android:name="com.daasuu.camerarecorder.ZoomVideoActivity"
+74-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-71
+75            android:screenOrientation="portrait" />
+75-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-49
+76        <activity
+76-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-54:65
+77            android:name="com.daasuu.camerarecorder.CustomAutoPlace"
+77-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-69
+78            android:screenOrientation="portrait"
+78-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-49
+79            android:theme="@style/Theme.AppCompat.SelfLucent" />
+79-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-62
+80        <activity
+80-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-57:52
+81            android:name="com.daasuu.camerarecorder.PPicCrop"
+81-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-62
+82            android:screenOrientation="portrait" />
+82-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-49
+83        <activity
+83-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-60:52
+84            android:name="com.daasuu.camerarecorder.ZoomMultiActivity"
+84-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-71
+85            android:screenOrientation="portrait" />
+85-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-49
+86        <activity
+86-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:9-63:52
+87            android:name="com.daasuu.camerarecorder.StoryVideoActivity"
+87-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-72
+88            android:screenOrientation="portrait" />
+88-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-49
+89        <activity
+89-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:9-67:66
+90            android:name="com.daasuu.camerarecorder.AddGiffOnVideoActivity"
+90-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-76
+91            android:screenOrientation="portrait"
+91-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-49
+92            android:theme="@style/Theme.AppCompat.Transaprent" />
+92-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-63
+93        <activity
+93-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:9-70:52
+94            android:name="com.daasuu.camerarecorder.BaseCameraActivity"
+94-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-72
+95            android:screenOrientation="portrait" />
+95-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-49
+96        <activity
+96-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:9-73:52
+97            android:name="com.daasuu.camerarecorder.CommentActivity"
+97-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-69
+98            android:screenOrientation="portrait" />
+98-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-49
+99        <activity
+99-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:9-76:52
+100            android:name="com.daasuu.camerarecorder.ZoomActivity"
+100-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-66
+101            android:screenOrientation="portrait" />
+101-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-49
+102        <activity
+102-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:9-79:52
+103            android:name="com.daasuu.camerarecorder.CollageActivity"
+103-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-69
+104            android:screenOrientation="portrait" />
+104-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-49
+105        <activity
+105-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:9-82:52
+106            android:name="com.daasuu.camerarecorder.StatusOptionsActivity"
+106-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-75
+107            android:screenOrientation="portrait" />
+107-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-49
+108        <activity
+108-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-85:52
+109            android:name="com.daasuu.camerarecorder.ProfileCropper"
+109-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-68
+110            android:screenOrientation="portrait" />
+110-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-49
+111        <activity
+111-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:9-89:66
+112            android:name="com.daasuu.camerarecorder.CustomDateActivity"
+112-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-72
+113            android:screenOrientation="portrait"
+113-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-49
+114            android:theme="@style/Theme.AppCompat.Transaprent" />
+114-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-63
+115        <activity
+115-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:9-93:65
+116            android:name="com.daasuu.camerarecorder.FastAndSlowVideoMotionActivity"
+116-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-84
+117            android:screenOrientation="portrait"
+117-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-49
+118            android:theme="@style/Theme.AppCompat.SelfLucent" />
+118-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:13-62
+119        <activity
+119-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:9-97:66
+120            android:name="com.daasuu.camerarecorder.SearchGiffActivity"
+120-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-72
+121            android:screenOrientation="portrait"
+121-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-49
+122            android:theme="@style/Theme.AppCompat.Transaprent" />
+122-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:13-63
+123        <activity
+123-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:9-102:55
+124            android:name="com.daasuu.camerarecorder.UpdateProfileActivity"
+124-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-75
+125            android:screenOrientation="portrait"
+125-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:13-49
+126            android:theme="@style/Theme.AppCompat.Transaprent"
+126-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:13-63
+127            android:windowSoftInputMode="adjustPan" />
+127-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-52
+128        <activity
+128-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-105:52
+129            android:name="com.daasuu.camerarecorder.AddCommentActivity"
+129-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-72
+130            android:screenOrientation="portrait" />
+130-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-49
+131        <activity
+131-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:9-108:52
+132            android:name="com.daasuu.camerarecorder.MultiPhotoActivity"
+132-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:13-72
+133            android:screenOrientation="portrait" />
+133-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-49
+134        <activity
+134-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:9-111:52
+135            android:name="com.daasuu.camerarecorder.CombineImagesActivity"
+135-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-75
+136            android:screenOrientation="portrait" />
+136-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:13-49
+137        <activity
+137-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:9-114:52
+138            android:name="com.daasuu.camerarecorder.friendListMenu"
+138-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-68
+139            android:screenOrientation="portrait" />
+139-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-49
+140        <activity
+140-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:9-117:52
+141            android:name="com.daasuu.camerarecorder.OpenOptions"
+141-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-65
+142            android:screenOrientation="portrait" />
+142-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-49
+143        <activity
+143-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:9-120:52
+144            android:name="com.daasuu.camerarecorder.ExtractAudioActivity"
+144-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:13-74
+145            android:screenOrientation="portrait" />
+145-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:13-49
+146        <activity
+146-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:9-124:66
+147            android:name="com.daasuu.camerarecorder.ShowUpdateActivity"
+147-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-72
+148            android:screenOrientation="portrait"
+148-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-49
+149            android:theme="@style/Theme.AppCompat.Transaprent" />
+149-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-63
+150        <activity
+150-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:9-128:65
+151            android:name="com.daasuu.camerarecorder.AddTextOnVideoActivity"
+151-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:13-76
+152            android:screenOrientation="portrait"
+152-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-49
+153            android:theme="@style/Theme.AppCompat.SelfLucent" />
+153-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-62
+154        <activity
+154-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:9-132:65
+155            android:name="com.daasuu.camerarecorder.ReverseVideoActivity"
+155-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:13-74
+156            android:screenOrientation="portrait"
+156-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:131:13-49
+157            android:theme="@style/Theme.AppCompat.SelfLucent" />
+157-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:132:13-62
+158        <activity
+158-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:9-135:52
+159            android:name="com.daasuu.camerarecorder.MergeImageAndMP3Activity"
+159-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-78
+160            android:screenOrientation="portrait" />
+160-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:13-49
+161        <activity
+161-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:9-139:66
+162            android:name="com.daasuu.camerarecorder.LikeActivity"
+162-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:137:13-66
+163            android:screenOrientation="portrait"
+163-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:138:13-49
+164            android:theme="@style/Theme.AppCompat.Transaprent" />
+164-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:139:13-63
+165        <activity
+165-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:140:9-143:66
+166            android:name="com.daasuu.camerarecorder.LikeActivity2"
+166-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:141:13-67
+167            android:screenOrientation="portrait"
+167-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:142:13-49
+168            android:theme="@style/Theme.AppCompat.Transaprent" />
+168-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:143:13-63
+169        <activity
+169-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:144:9-147:66
+170            android:name="com.daasuu.camerarecorder.PopupMenuAcitivty"
+170-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:145:13-71
+171            android:screenOrientation="portrait"
+171-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:146:13-49
+172            android:theme="@style/Theme.AppCompat.Transaprent" />
+172-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:147:13-63
+173        <activity
+173-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:9-150:52
+174            android:name="com.daasuu.camerarecorder.MessageActivity"
+174-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:149:13-69
+175            android:screenOrientation="portrait" />
+175-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:13-49
+176        <activity
+176-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:9-154:65
+177            android:name="com.daasuu.camerarecorder.AddWaterMarkOnVideoActivity"
+177-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:13-81
+178            android:screenOrientation="portrait"
+178-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:153:13-49
+179            android:theme="@style/Theme.AppCompat.SelfLucent" />
+179-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:154:13-62
+180        <activity
+180-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:155:9-158:65
+181            android:name="com.daasuu.camerarecorder.SpeechManipulatorActivity"
+181-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:156:13-79
+182            android:screenOrientation="portrait"
+182-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:157:13-49
+183            android:theme="@style/Theme.AppCompat.SelfLucent" />
+183-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:158:13-62
+184        <activity
+184-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:159:9-162:66
+185            android:name="com.daasuu.camerarecorder.CombineVideosActivity"
+185-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:160:13-75
+186            android:screenOrientation="portrait"
+186-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:13-49
+187            android:theme="@style/Theme.AppCompat.Transaprent" />
+187-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:162:13-63
+188        <activity
+188-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:163:9-165:52
+189            android:name="com.daasuu.camerarecorder.IntroActivity"
+189-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:164:13-67
+190            android:screenOrientation="portrait" />
+190-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:165:13-49
+191        <activity
+191-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:166:9-168:52
+192            android:name="com.daasuu.camerarecorder.CombineImageAndVideoActivity"
+192-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:167:13-82
+193            android:screenOrientation="portrait" />
+193-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:168:13-49
+194        <activity
+194-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:169:9-171:52
+195            android:name="com.daasuu.camerarecorder.MergeAudioVideoActivity"
+195-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:170:13-77
+196            android:screenOrientation="portrait" />
+196-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:171:13-49
+197        <activity
+197-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:172:9-174:52
+198            android:name="com.daasuu.camerarecorder.RemoveAudioFromVideoActivity"
+198-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:173:13-82
+199            android:screenOrientation="portrait" />
+199-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:174:13-49
+200        <activity
+200-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:175:9-177:52
+201            android:name="com.daasuu.camerarecorder.ImageToVideoConvertActivity"
+201-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:176:13-81
+202            android:screenOrientation="portrait" />
+202-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:177:13-49
+203        <activity
+203-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:178:9-180:52
+204            android:name="com.daasuu.camerarecorder.VideoRotateFlipActivity"
+204-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:179:13-77
+205            android:screenOrientation="portrait" />
+205-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:180:13-49
+206        <activity
+206-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:181:9-183:52
+207            android:name="com.daasuu.camerarecorder.CutVideoUsingTimeActivity"
+207-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:182:13-79
+208            android:screenOrientation="portrait" />
+208-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:183:13-49
+209        <activity
+209-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:184:9-186:52
+210            android:name="com.daasuu.camerarecorder.VideoToGifActivity"
+210-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:185:13-72
+211            android:screenOrientation="portrait" />
+211-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:186:13-49
+212        <activity
+212-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:187:9-189:52
+213            android:name="com.daasuu.camerarecorder.ExtraOptionsActivity"
+213-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:188:13-74
+214            android:screenOrientation="portrait" />
+214-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:189:13-49
+215        <activity
+215-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:190:9-192:52
+216            android:name="com.daasuu.camerarecorder.OptionsList"
+216-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:191:13-65
+217            android:screenOrientation="portrait" />
+217-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:192:13-49
+218        <activity
+218-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:193:9-195:52
+219            android:name="com.daasuu.camerarecorder.TrimMainActivity"
+219-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:194:13-70
+220            android:screenOrientation="portrait" />
+220-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:195:13-49
+221        <activity
+221-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:196:9-198:52
+222            android:name="com.daasuu.camerarecorder.ProcessActivity"
+222-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:197:13-69
+223            android:screenOrientation="portrait" />
+223-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:198:13-49
+224        <activity
+224-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:199:9-201:52
+225            android:name="com.daasuu.camerarecorder.MainFrameActivity"
+225-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:200:13-71
+226            android:screenOrientation="portrait" />
+226-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:201:13-49
+227        <activity
+227-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:202:9-204:52
+228            android:name="com.daasuu.camerarecorder.PlaygroundActivity"
+228-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:203:13-72
+229            android:screenOrientation="portrait" />
+229-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:204:13-49
+230        <activity
+230-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:205:9-208:45
+231            android:name="com.daasuu.camerarecorder.TrimmerActivity"
+231-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:206:13-69
+232            android:screenOrientation="portrait" />
+232-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:207:13-49
+233        <activity
+233-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:209:9-211:52
+234            android:name="com.daasuu.camerarecorder.VoiceRecorderActivity"
+234-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:210:13-75
+235            android:screenOrientation="portrait" />
+235-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:211:13-49
+236
+237        <meta-data
+237-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:213:9-215:57
+238            android:name="preloaded_fonts"
+238-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:214:13-43
+239            android:resource="@array/preloaded_fonts" />
+239-->[:camerarecorder] C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:215:13-54
+240
+241        <uses-library
+241-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:13:9-15:40
+242            android:name="android.test.runner"
+242-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:14:13-47
+243            android:required="false" />
+243-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:15:13-37
+244        <uses-library
+244-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:16:9-18:40
+245            android:name="android.test.base"
+245-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:17:13-45
+246            android:required="false" />
+246-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:18:13-37
+247        <uses-library
+247-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:19:9-21:40
+248            android:name="android.test.mock"
+248-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:20:13-45
+249            android:required="false" />
+249-->[com.giphy.sdk:ui:2.1.6] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a109c58690b2c455acc434f8f83c79ba\jetified-ui-2.1.6\AndroidManifest.xml:21:13-37
+250
+251        <provider
+251-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:14:9-22:20
+252            android:name="com.jaiselrahman.filepicker.utils.FilePickerProvider"
+252-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:15:13-80
+253            android:authorities="com.sage.project.filepicker.provider"
+253-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:16:13-71
+254            android:exported="false"
+254-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:17:13-37
+255            android:grantUriPermissions="true" >
+255-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:18:13-47
+256            <meta-data
+256-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:19:13-21:86
+257                android:name="android.support.FILE_PROVIDER_PATHS"
+257-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:20:17-67
+258                android:resource="@xml/com_jaiselrahman_filepicker_provider_paths" />
+258-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:21:17-83
+259        </provider>
+260
+261        <activity
+261-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:24:9-26:59
+262            android:name="com.jaiselrahman.filepicker.activity.FilePickerActivity"
+262-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:25:13-83
+263            android:theme="@style/AppTheme.NoActionBar" />
+263-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:26:13-56
+264        <activity android:name="com.xiaopo.flying.poiphoto.ui.PickActivity" />
+264-->[com.flying.xiaopo:poiphoto:0.4.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\af1c5573dc6076640afe1da379467bf9\jetified-poiphoto-0.4.2\AndroidManifest.xml:15:9-79
+264-->[com.flying.xiaopo:poiphoto:0.4.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\af1c5573dc6076640afe1da379467bf9\jetified-poiphoto-0.4.2\AndroidManifest.xml:15:19-76
+265        <activity
+265-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+266            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+266-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+267            android:exported="false"
+267-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+268            android:label="@string/places_autocomplete_label"
+268-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+269            android:theme="@style/PlacesAutocompleteOverlay"
+269-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+270            android:windowSoftInputMode="adjustResize" >
+270-->[com.google.android.libraries.places:places:2.4.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2b79fa8408e642edb0b676e88540307a\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+271        </activity>
+272        <activity
+272-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+273            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+273-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+274            android:exported="false"
+274-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+275            android:label=""
+275-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+276            android:theme="@style/EasyPermissions.Transparent" />
+276-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+277
+278        <service
+278-->[com.google.firebase:firebase-database:19.7.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ba40edd5739323b0c83dc70f5150dd31\jetified-firebase-database-19.7.0\AndroidManifest.xml:29:9-35:19
+279            android:name="com.google.firebase.components.ComponentDiscoveryService"
+279-->[com.google.firebase:firebase-database:19.7.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ba40edd5739323b0c83dc70f5150dd31\jetified-firebase-database-19.7.0\AndroidManifest.xml:30:13-84
+280            android:directBootAware="true"
+280-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+281            android:exported="false" >
+281-->[com.google.firebase:firebase-database:19.7.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ba40edd5739323b0c83dc70f5150dd31\jetified-firebase-database-19.7.0\AndroidManifest.xml:31:13-37
+282            <meta-data
+282-->[com.google.firebase:firebase-database:19.7.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ba40edd5739323b0c83dc70f5150dd31\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+283                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+283-->[com.google.firebase:firebase-database:19.7.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ba40edd5739323b0c83dc70f5150dd31\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+284                android:value="com.google.firebase.components.ComponentRegistrar" />
+284-->[com.google.firebase:firebase-database:19.7.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\ba40edd5739323b0c83dc70f5150dd31\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+285            <meta-data
+285-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+286                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+286-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+287                android:value="com.google.firebase.components.ComponentRegistrar" />
+287-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+288            <meta-data
+288-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+289                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+289-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+291            <meta-data
+291-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\0ec42826fe381aee33952508a57dd9f9\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+292                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+292-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\0ec42826fe381aee33952508a57dd9f9\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+293                android:value="com.google.firebase.components.ComponentRegistrar" />
+293-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\0ec42826fe381aee33952508a57dd9f9\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+294            <meta-data
+294-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\94a16fd48fa84b0c987290c13a54fd52\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+295                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+295-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\94a16fd48fa84b0c987290c13a54fd52\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+296                android:value="com.google.firebase.components.ComponentRegistrar" />
+296-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\94a16fd48fa84b0c987290c13a54fd52\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+297            <!--
+298                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+299                clients to use it as well, by defining this registrar in their own core/common library.
+300            -->
+301            <meta-data
+301-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+302                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+302-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+303                android:value="com.google.firebase.components.ComponentRegistrar" />
+303-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+304        </service>
+305        <!--
+306             FirebaseMessagingService performs security checks at runtime,
+307             but set to not exported to explicitly avoid allowing another app to call it.
+308        -->
+309        <service
+309-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+310            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+310-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+311            android:directBootAware="true"
+311-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+312            android:exported="false" >
+312-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+313            <intent-filter android:priority="-500" >
+313-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:32:13-34:29
+313-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:32:28-51
+314                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+314-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:33:17-78
+314-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a7d6662c1dd6aaee516b551fddf66ffe\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:33:25-75
+315            </intent-filter>
+316        </service> <!-- Needs to be explicitly declared on P+ -->
+317        <uses-library
+317-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dc88e4597491521248a3227b9f47cdcf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+318            android:name="org.apache.http.legacy"
+318-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dc88e4597491521248a3227b9f47cdcf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+319            android:required="false" />
+319-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dc88e4597491521248a3227b9f47cdcf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+320
+321        <receiver
+321-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+322            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+322-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+323            android:exported="true"
+323-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+324            android:permission="com.google.android.c2dm.permission.SEND" >
+324-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+325            <intent-filter>
+325-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+326                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+326-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+326-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d46b5dd89eccb17fa6e653c2661f4cec\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+327            </intent-filter>
+328        </receiver>
+329
+330        <activity
+330-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d5779bd658350b4d47f202e9ca492dcb\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+331            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+331-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d5779bd658350b4d47f202e9ca492dcb\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+332            android:exported="false"
+332-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d5779bd658350b4d47f202e9ca492dcb\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+333            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+333-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d5779bd658350b4d47f202e9ca492dcb\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+334
+335        <provider
+335-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+336            android:name="com.google.firebase.provider.FirebaseInitProvider"
+336-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+337            android:authorities="com.sage.project.firebaseinitprovider"
+337-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+338            android:directBootAware="true"
+338-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+339            android:exported="false"
+339-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+340            android:initOrder="100" />
+340-->[com.google.firebase:firebase-common:19.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\95b793b289ede13fe56b4e2e3435acd1\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+341
+342        <meta-data
+342-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a792fd7b37313e204b6f8e43a5427d05\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+343            android:name="com.google.android.gms.version"
+343-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a792fd7b37313e204b6f8e43a5427d05\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+344            android:value="@integer/google_play_services_version" />
+344-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\a792fd7b37313e204b6f8e43a5427d05\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+345
+346        <service
+346-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c725baf7d4489394f67f6e14548f9770\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+347            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+347-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c725baf7d4489394f67f6e14548f9770\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+348            android:exported="false" >
+348-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c725baf7d4489394f67f6e14548f9770\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+349            <meta-data
+349-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c725baf7d4489394f67f6e14548f9770\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+350                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+350-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c725baf7d4489394f67f6e14548f9770\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+351                android:value="cct" />
+351-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c725baf7d4489394f67f6e14548f9770\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+352        </service>
+353
+354        <provider
+354-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4cd1a3bd5329021f6b212584e9fbf464\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+355            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+355-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4cd1a3bd5329021f6b212584e9fbf464\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+356            android:authorities="com.sage.project.lifecycle-process"
+356-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4cd1a3bd5329021f6b212584e9fbf464\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+357            android:exported="false"
+357-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4cd1a3bd5329021f6b212584e9fbf464\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+358            android:multiprocess="true" />
+358-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4cd1a3bd5329021f6b212584e9fbf464\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+359
+360        <service
+360-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+361            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+361-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+362            android:exported="false"
+362-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+363            android:permission="android.permission.BIND_JOB_SERVICE" >
+363-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+364        </service>
+365
+366        <receiver
+366-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+367            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+367-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+368            android:exported="false" />
+368-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6efafdee069d439e3e140ceb4698f32e\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+369    </application>
+370
+371</manifest>
